@@ -25,7 +25,7 @@ describe("test case describing the callback functions", ()=>{
 
     it("should return [.5, 1. 1.5]", ()=>{
         const result = callbackFunction([1,2,3], function(num) {return num /2});
-        expect(result).toEqual([.5, 1. 1.5])
+        expect(result).toEqual([.5, 1, 1.5])
     })
 
     it("should return [-1, 0, 1]", ()=>{
